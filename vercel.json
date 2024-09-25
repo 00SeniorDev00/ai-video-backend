@@ -7,6 +7,6 @@
         }
     ],
     "installCommand": "pnpm install",
-    "buildCommand": "pnpm run build",
-    "outputDirectory": "dist"
+    "buildCommand": "echo 'No build step required'",
+    "outputDirectory": "."
 }
