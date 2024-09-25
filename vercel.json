@@ -12,6 +12,11 @@
         "dest": "/index.js"
         }
     ],
+    "build": {
+        "env": {
+            "NODE_ENV": "production"
+        }
+    },
     "installCommand": "pnpm install",
     "buildCommand": "pnpm run build",
     "outputDirectory": "dist"
